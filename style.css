@@ -1,8 +1,14 @@
+
+
 html {
   box-sizing: border-box;
   font-size: 16px;
   line-height: 1.5em;
   font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -13,12 +19,14 @@ h1 {
   color: #f7f7f7;
   font-weight: bold;
   text-shadow: 1px;
+  font-family: 'Raleway', sans-serif;
 }
 h2 {
   font-size: 1.15rem;
   text-align: center;
   color: #f7f7f7;
   text-shadow: 1px;
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
