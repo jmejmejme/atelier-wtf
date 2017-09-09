@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #f7f7f7;
+  font-weight: bold;
+  text-shadow: 1px;
+}
+h2 {
+  font-size: 1.15rem;
+  text-align: center;
+  color: #f7f7f7;
+  text-shadow: 1px;
+}
+
+header {
+  width: 100%;
+  min-height: 140px;
+  background: #8ec6de; /* Old Browsers */
+  background: -webkit-radial-gradient(top right,#8ec6de,#9e8ede); /*Safari 5.1-6*/
+  background: -o-radial-gradient(top right,#8ec6de,#9e8ede); /*Opera 11.1-12*/
+  background: -moz-radial-gradient(top right,#8ec6de,#9e8ede); /*Fx 3.6-15*/
+  background: radial-gradient(top right, #8ec6de, #9e8ede); /*Standard*/
+}
