@@ -14,23 +14,29 @@ body {
   box-sizing: inherit;
 }
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-align: center;
   color: #f7f7f7;
   font-weight: bold;
   text-shadow: 1px;
   font-family: 'Raleway', sans-serif;
+  text-shadow: .5px .5px rgba(0, 0, 0, 0.15);
 }
 h2 {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   text-align: center;
   color: #f7f7f7;
   text-shadow: 1px;
   font-family: 'Raleway', sans-serif;
+  text-shadow: .5px .5px rgba(0, 0, 0, 0.15);
+}
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
-header {
+header, footer {
   margin: 0;
+  padding: 2rem;
   width: 100%;
   min-height: 140px;
   background: #8ec6de; /* Old Browsers */
@@ -38,4 +44,17 @@ header {
   background: -o-radial-gradient(top right,#8ec6de,#9e8ede); /*Opera 11.1-12*/
   background: -moz-radial-gradient(top right,#8ec6de,#9e8ede); /*Fx 3.6-15*/
   background: radial-gradient(top right, #8ec6de, #9e8ede); /*Standard*/
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-blurb {
+  background-color: rgba(77, 51, 77, .5);
+  padding: 1rem;
+  width: 30vw;
+}
+.footer-blurb p {
+  color: rgba(255, 255, 255, .7);
+  text-align: center;
 }
