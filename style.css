@@ -5,11 +5,11 @@ html {
   font-size: 16px;
   line-height: 1.5em;
   font-family: sans-serif;
+  min-height: 100%;
 }
 body {
   margin: 0;
   padding: 0;
-  min-height: 100%;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -47,7 +47,7 @@ header, footer {
   background: radial-gradient(top right, #8ec6de, #9e8ede); /*Standard*/
 }
 header {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 25px 0 rgba(0, 0, 0, .3);
 }
 main {
   min-height: 25vh;
@@ -57,7 +57,7 @@ footer {
   justify-content: space-around;
   position: relative;
   bottom: 0;
-  box-shadow: 0 -5px 5px 5px rgba(0, 0, 0, .4);
+  box-shadow: 0 -2px 25px 0 rgba(0, 0, 0, .3);
 }
 .footer-blurb {
   background-color: rgba(77, 51, 77, .2);
